@@ -7,7 +7,7 @@ import csv
 from pandas import DataFrame
 
 ##### you can find the dataset here: https://grouplens.org/datasets/movielens/100k/
-data=np.genfromtxt('u.data',delimiter='\t')
+data=np.genfromtxt('data/u.data',delimiter='\t')
 
 uID=data[:,][:,0]     # first column
 mID=data[:,][:,1]     # second column
